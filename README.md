@@ -9,7 +9,7 @@ for alert notifications.
 
 ```hcl
 module "security_center" {
-  source = "github.com/cybercapybara/terraform-azurerm-security-center"
+  source = "github.com/moveeeax/terraform-azurerm-security-center"
 
   resource_types = {
     VirtualMachines = "Standard"
